@@ -1,27 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
+*{    
     box-sizing: border-box;
     font-family: sans-serif;
-    text-decoration: none;
     list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;    
 }
 
 /* header area starts */
-.header{
-    width: 100%;
-    height: 70px;
+.header{   
     background-color: rgb(232, 232, 233);
     box-shadow: 4px 1px 6px #888888;
+    height: 70px;
     margin-bottom: 20px;
+    width: 100%;
 }
-.logo{
-    width: 25%;
+.logo{    
     display: inline;
+    width: 25%;
 }
 .logo a img{
-    margin: 10px 0 0 35px;
     height: 40px;
+    margin: 10px 0 0 35px;   
     width: 160px;
 }
 .user{
@@ -33,32 +33,33 @@
     float: right;
     text-align: right;
     width: 22%;
+    margin-top: 9px;
 }
-.user-circle-icon{
-    width: 50%;
-}
-.user-detail{
-    width: 60%;
-    float: left;
-    text-align: left;
+
+.user-detail{    
+    float: left;    
     margin-left: 10px;
+    text-align: left;
+    width: 60%;
+   
 }
-.user-circle-icon a{
-    color: #ffffff;
+.user-details a{
+    
     background-color:#34495e;
-    padding: 10px 15px;
     border-radius: 100%;
-    margin-top: 10px;
+    color: #ffffff;      
     float: left;
+    margin-top: 10px;
+    padding: 10px 15px; 
 }
 .user-detail{
     color:#34495e;
     margin-top: 10px;
 }
 .user-name{
-    font-size: 17px;
-    font-weight: 500;
     display: block;
+    font-size: 17px;
+    font-weight: 500;    
 }
 .membership{
     font-size: 12px;
@@ -68,18 +69,18 @@
 .main-section{
     /* border: 1px solid yellow; */
     float: left;
-    width: 100%;
     height: 100vh;
+    width: 100%;    
 }
-.sidebar-nav{
-    width: 23%;
-    float: left;
+.sidebar-nav{   
     display: inline;
+    float: left;
+    width: 23%;
 }
 
 .navigation{
-    margin-top: 20px;
     float: left; 
+    margin-top: 20px;    
 }
 .list-item{
     padding: 10px 0;
@@ -97,9 +98,9 @@
 }
 .nav-icon{
     padding: 6px 5px;
-    margin-left: 25px;
-    margin-top: 2px;
     position: relative;
+    margin-left: 25px;
+    margin-top: 2px;    
 }
 .nav-item a{
     color: #2c2c2c;
@@ -108,30 +109,29 @@
     font-weight: 600;
 }
 .active-nav-icon::before{
-    content: '';
-    position: absolute;
-    height: 40px;
-    width: 5px;
-    top: -5px;
-    left: -20px;
     background-color: #56b596;
+    content: '';
+    height: 40px;
+    left: -20px;
+    position: absolute;
+    top: -5px;
+    width: 5px;    
 }
 .nav-sub{
     position: relative;
 }
 .nav-sub::before{
-    content: '';
-    position: absolute;
-    height: 2px;
-    width: 200px;
-    top: 45px;
-    left: 25px;
     background-color: #a7a5a5;
-
+    content: '';
+    height: 2px;
+    left: 25px;
+    position: absolute;
+    top: 45px;
+    width: 200px;
 }
 .organization-list{
-    padding: 10px 0 0 0;
     margin-left: 20px;
+    padding: 10px 0 0 0;   
 }
 .nav-item-head{
     position: relative;
@@ -140,16 +140,20 @@
     color: #888888;
     padding: 20px 0 !important;
 }
-.badge{
+.badge{   
+    background-color: #5bc0de;
+    border-radius: 6px;
+    color: #ffffff;
     margin: 0px 20px;
     padding: 2px 15px;
-    background-color: #5bc0de;
-    color: #ffffff;
-    border-radius: 6px;
 }
 .navbar:hover i{
     color: #a7a5a5;
     cursor: pointer;
+}
+.fa-reorder{
+    font-size: 34px !important;
+    margin-left: 20px !important
 }
 .navbar{
     display: none;
@@ -158,21 +162,21 @@
 
 /* main-content-section starts */
 .main-content-section{
-    width: 77%;
     display: inline;
     float: left;
+    width: 77%;    
 }
 .acme-feed-section{
-    width: 52%;
-    float: left;
     display: inline;
+    float: left;
     margin: 16px 10px;
+    width: 52%;   
 }
 
 .piechart-section{
-    width: 44%;
-    float: left;
     display: inline;
+    float: left;
+    width: 44%;   
 }
 .acme-head span{
     font-size: 19px;
@@ -186,24 +190,27 @@
     float: right;
     font-weight: 200 !important;
 }
-.last-seen pre{
+.fa-clock-o{
+    font-size:12px !important;
+}
+.last-seen p{
     float: right;
-    width: 100%;
-    text-align: right;
     font-size: 12px;
     margin-top: -10px;
+    text-align: right;
+    width: 100%;  
 }
-.last-seen pre i{
+.last-seen p i{
     font-size: 12px;
     margin-top: 4px;
 }
-.actions-detail{
-    width: 100%;
+.actions-detail{    
     border: 1px solid #dfdede;
-    margin-top: 20px;
-    float: left;
     box-shadow: 1px 2px 5px #cecdcd;
+    float: left;
+    margin-top: 20px;
     padding: 0px 10px;
+    width: 100%;   
 }
 .action-confirm{
     display: inline;
@@ -214,15 +221,16 @@
 }
 .action-icon i{
     border: 1px solid #d1d0d0;
-    padding: 14px 12px;
     border-radius: 50%;
     margin-right: 10px;
+    padding: 14px 12px;  
 }
-.tag-event{
-    margin-left: 20%;
+.tag-event{  
     color: #657786;
     font-size: 12px;
+    margin-left: 20%;
     margin-top: -10px;
+    
 }
 .confirm{
     color: #5bc0de;
@@ -232,19 +240,20 @@
     font-size: 18px !important;
     margin-left: 10px;
 }
-.fa-clone sup{
-    color: #ffffff;
-    padding: 1px 6px;
+.fa-clone sup{   
     background-color: #ff9c00;
     border-radius: 50%;
+    color: #ffffff;   
     font-size: 12px;
+    padding: 1px 6px;
 }
 .action-last-seen{
-    display: inline;
+    display: inline;    
+    color: #8d8c8c;
+    font-size: 13px;
     float: right;
     margin-top: 40px;
-    font-size: 13px;
-    color: #8d8c8c;
+    
 }
 .acme-feed-section p{
     color: #424242;
@@ -254,45 +263,45 @@
 }
 .action-content{
     display: block;
-    width: 100%;
-   float: left;
-   margin-top: 20px;
+    float: left;
+    margin-top: 20px;
+    width: 100%;  
 }
 .action-content img{
-    width: 100%;
     height: 250px;
+    width: 100%;    
 }
-.action-content p.time-detail{
-    font-size: 14px;
+.action-content p.time-detail{   
     color: #888888;
+    font-size: 14px;
     padding: 10px 0;
 }
 .action-content p.time-detail span{
     color: #5da8e0;
 }
-.location-details{
-    width: 100%;
+.location-details{    
     float: left;
     padding: 10px 0;
     position: relative;
+    width: 100%;
 }
 .location-details::before{
-    content: '';
-    position: absolute;
-    height: 1px;
-    width: 100%;
     background-color: #d6d5d5;
+    content: '';
+    height: 1px;
+    position: absolute;
     top: -3px;
+    width: 100%;   
 }
 
 .location-details::after{
-    content: '';
-    position: absolute;
-    height: 1px;
-    width: 100%;
-    display: block;
     background-color: #d6d5d5;
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
     top: 45px;
+    width: 100%;    
 }
 .location-list li.location-list-item{
     float: left;
@@ -317,32 +326,31 @@
 
 /* pie-chart section */
 .chart-one{
-    margin: 20px 40px;   
-    font-size: 15px;
-    color: #8d8c8c; 
     box-shadow: 1px 2px 5px #cecdcd;
+    color: #8d8c8c; 
+    font-size: 15px;   
     float: left;
+    margin: 20px 40px;      
 }
-.piechart-section p{
-    margin: 20px 40px;   
-    font-size: 15px;
+.piechart-section p{    
     color: #8d8c8c; 
     float: left;
+    font-size: 15px;
+    margin: 20px 40px;   
 }
 .chart-one img{
-    width: 100%;
     margin-top: 20px;
-    
+    width: 100%;    
 }
-.action-details{
-    text-align: center;
+.action-details{  
+    float: left;    
     padding: 20px 0;
+    text-align: center;
     width: 100%;
-    float: left;
 }
-.action-details li{
-    width: 70%;
+.action-details li{    
     margin: auto;
+    width: 70%;
 }
 .action-name i{
     float: left;
@@ -393,6 +401,9 @@
 
 /* media query */
 @media screen and (max-width: 1024px){
+    .user-details{
+        width: 24%;
+    }
     .action-confirm {
         display: inline;
         font-size: 13px;
@@ -412,20 +423,20 @@
     }
 }
 @media screen and (max-width: 768px){
-    .logo{
-        width: 20%;
+    .user-details{        
+        margin-top: 5px;
+        width: 31%;
+    }
+    .logo{        
         display: inline;
+        width: 20%;
     }
     .logo a img{
-        margin: 10px 0 0 20px;
         height: 50px;
+        margin: 10px 0 0 20px;       
         width: 150px;
     }
-    .user-details{
-        float: right;
-        text-align: right;
-        width: 30%;
-    }
+
     .nav-sub::before {
         width: 145px;
     }
@@ -438,26 +449,29 @@
     }
     .acme-feed-section{
         display: block;
-        width: 100%;
         margin: 16px 0px;
         padding: 0px 12px;
+        width: 100%;        
     }
     .piechart-section{
         width: 100%;
     }
     .chart-one{
-        width: 50%;
         display: inline;
+        width: 50%;        
     }
-
+    .location-list-item span{
+        font-size: 14px;
+        padding: 0px 18px;
+    }
 }
 @media screen and (max-width: 425px){
     .header{
         height: 60px;
     }
     .logo{
-        width: 10%;
         display: inline;
+        width: 10%;       
     }
     .logo a img{
         margin: 15px 0 0 10px;
@@ -466,21 +480,21 @@
     }
     .user-details{
         float: right;
-        text-align: right;
-        width: 60%;
         font-size: 13px;
+        text-align: right;
+        width: 60%;        
     }
     .user-detail p{
         font-size: 12px;
     }
-    .sidebar-nav{
-        width: 100%;
+    .sidebar-nav{        
         display: block;
+        width: 100%;
     }
     .navigation div{
         display: none;
-        padding: 0px;
         margin: 10px 0px;
+        padding: 0px;        
     }
     .active-nav-icon::before{
         visibility: hidden;
@@ -499,26 +513,29 @@
         float: left;        
     }
     .navbar:hover + .navigation div{
-        display: block !important;
-       cursor: pointer;
+        cursor: pointer;
+        display: block !important;       
     }
     .main-content-section{
         display: block;
         width: 100%;
     }
+    .last-seen p i{
+        margin-top: 1px;
+    }
     .acme-feed-section{
         display: block;
-        width: 100%;
         margin: 16px 0px;
         padding: 0px 12px;
+        width: 100%;        
     }
     .piechart-section{
         display: block;
         width: 100%;
     }
     .chart-one{
-        width: 100%;
         margin: 0;
+        width: 100%;        
     }
     .acme-head span{
         font-size: 15px
@@ -535,28 +552,36 @@
     .fa-clone{
         font-size: 14px !important;
     }
-    .fa-clone sup {
-        padding: 1px 4px;
+    .fa-clone sup {       
         font-size: 8px;
+        padding: 1px 4px;
     }
     .acme-feed-section p{
         font-size: 12px;
     }
     .location-list-item span{
-        font-size: 14px;
-        padding-right: 4px
+        font-size: 13px;
+        padding:0px 5px;
     }
     .location-list-item span i{
         font-size: 13px !important
     }
-    .fa-sticky-note{
+    .fa-sticky-note{       
+        height: 34px !important;
         width: 33px !important;
-        height: 34px !important
+    }
+    .location-list li.location-list-item{
+        margin: 0px 2px;
     }
         
 }
 @media screen and (max-width: 375px){
-
+    .user-details a{
+        padding: 7px 11px;
+    }
+    .user-detail p {
+        font-size: 11px;
+    }
     .action-confirm {
         font-size: 11px;
     }
