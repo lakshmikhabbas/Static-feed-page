@@ -1,6 +1,6 @@
-@import "mix.scss";
+@import "mix";
 
-/* header area starts */
+// header area starts
 .header {
     @include box-shadow;
     background-color: #e8e8e9;    
@@ -608,7 +608,7 @@
 }
 
 
-/* media query */
+//////////////////////////////////////////media query 
 @media screen and (max-width: 1024px) {
     .action-name i span {
         font-size: 13px;
