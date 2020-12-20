@@ -1,1 +1,1 @@
-# incident-feed-page
+# static-feed-page
